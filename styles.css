@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .poster {
+    text-align: center;
+    background-color: #ffffff;
+    border: 5px solid #ff0000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    color: #ff0000;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .photo img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px 0;
+    border: 2px solid #ff0000;
+  }
+  
+  .name {
+    font-size: 26px;
+    color: #333333;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555555;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .details {
+    font-size: 16px;
+    color: #555555;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  .contact {
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
